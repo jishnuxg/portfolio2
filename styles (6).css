@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header .logo {
+    float: left;
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    float: left;
+    display: inline;
+    margin: 10px 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .search-cart {
+    float: right;
+    margin-top: 15px;
+}
+
+header .search-cart input {
+    padding: 5px;
+    border: none;
+}
+
+header .search-cart .cart {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+main {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.food-gallery {
+    text-align: center;
+}
+
+.food-gallery h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.food-gallery p {
+    font-size: 18px;
+    color: #777;
+    margin: 5px 0 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 300px; /* Left and right padding */
+}
+
+.gallery-item {
+    flex: 0 1 calc(33.33% - 40px); /* Reduced size and adjusted for spacing */
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about {
+    background: #eee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-section {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section img {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.instagram-images img {
+    width: 22%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
